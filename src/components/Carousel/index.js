@@ -7,10 +7,10 @@ function Carousel({
   ignoreFirstVideo,
   category,
 }) {
-  const categoryTitle = category.titulo;
-  const categoryColor = category.cor;
-  const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+  const categoryTitle = category.titulo
+  const categoryColor = category.cor
+  const categoryExtraLink = category.link_extra
+  const videos = category.videos
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -43,7 +43,7 @@ function Carousel({
         })}
       </Slider>
     </VideoCardGroupContainer>
-  );
+  )
 }
 
 export default Carousel
